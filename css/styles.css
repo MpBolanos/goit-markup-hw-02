@@ -38,16 +38,18 @@ body {
   letter-spacing: 0.02em;
   color: var(--primary-text-color);
 }
+.hearder-logo:focus,
 .header-link:hover,
 .hearder-link:focus,
 .tel:hover,
 .tel:focus,
 .email:hover,
 .email:focus,
+.footer-logo:focus,
 .address-contact:hover,
 .address-contact:focus,
 .footer-contact:hover,
-.address-contact:focus {
+.footer-contact:focus {
   color: var(--accent-color);
 }
 .current {
@@ -170,7 +172,9 @@ body {
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
   background-color: var(--tertiary-background-color);
+  border-radius: 4px;
   outline: none;
+  border: none;
   cursor: pointer;
 }
 .button-current {
